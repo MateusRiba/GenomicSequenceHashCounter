@@ -15,8 +15,7 @@ Este repositório contém uma implementação para análise de sequências de ge
 - **Main.cpp**: Arquivo principal onde a sequência do genoma é lida e a análise é realizada.
 - **Hash.cpp**: Implementação da tabela de hash que armazena os blocos de 6 bases.
 - **Hash.h**: Definição da estrutura da tabela de hash.
-- **SequenciaTeste.txt**: Arquivo de entrada contendo a sequência do genoma.
-- **resultado_hashAtual.txt**: Arquivo de saída contendo os blocos e suas contagens.
+- **Arquivos de texto**: Gerados ou usados, contem inputs e outputs.
 
 ## Como Usar
 
@@ -51,7 +50,7 @@ Este repositório contém uma implementação para análise de sequências de ge
 
 ## Exemplo de Saída
 
-O arquivo de saída `resultado_hashAtual.txt` terá a seguinte estrutura:
+O arquivo de saída `resultado_hashAtual.txt` terá a seguinte estrutura (exemplo):
 
 ```
 ATTAAA 3
