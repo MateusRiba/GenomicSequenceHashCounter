@@ -49,10 +49,10 @@ int HashTable::getCount(const string& conjunto) {
 }
 
 // Imprime a tabela de hash
-void HashTable::printTable() {
+void HashTable::printTable(ofstream& outputFile) {
     for (int i = 0; i < size; i++) {
         for (auto& entry : table[i]) {
-            cout << entry.first << " " << entry.second << endl;
+            outputFile << entry.first << " " << entry.second << endl; //Isso serve para criar o arquivo em xt
         }
     }
 }

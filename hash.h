@@ -16,7 +16,7 @@ public:
     HashTable(int size);  // Construtor
     void insert(const string& conjunto); 
     int getCount(const string& conjunto);  
-    void printTable();  
+    void printTable(ofstream& outputFile);  
 
 private:
     int size;  // Tamanho da tabela de hash
