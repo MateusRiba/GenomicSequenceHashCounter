@@ -60,4 +60,3 @@ AGGTTT 2
 ```
 
 Onde o primeiro valor é o bloco de 6 bases e o segundo é o número de ocorrências desse bloco no genoma.
-
