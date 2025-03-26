@@ -1,11 +1,3 @@
-Para o nome do repositório, considerando que se trata de uma análise de genoma utilizando tabelas de hash para contar repetições de sequências, um nome sugestivo poderia ser:
-
-**"GenomicSequenceHashCounter"**
-
-Agora, vou criar um exemplo de README para o repositório. Aqui está um modelo que você pode usar:
-
----
-
 # GenomicSequenceHashCounter
 
 Este repositório contém uma implementação para análise de sequências de genoma utilizando tabelas de hash. O objetivo é contar a frequência de blocos consecutivos de 6 bases no genoma do coronavírus. A análise é feita em blocos de 6 caracteres extraídos de linhas de 60 caracteres do genoma, e os resultados são gravados em um arquivo de saída.
@@ -69,14 +61,3 @@ AGGTTT 2
 
 Onde o primeiro valor é o bloco de 6 bases e o segundo é o número de ocorrências desse bloco no genoma.
 
-## Contribuições
-
-Se você tiver sugestões ou correções, fique à vontade para abrir um *pull request* ou um *issue*. Agradecemos qualquer contribuição!
-
-## Licença
-
-Este projeto está licenciado sob a MIT License - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-Se precisar de algum ajuste ou de mais detalhes no README, é só avisar!
